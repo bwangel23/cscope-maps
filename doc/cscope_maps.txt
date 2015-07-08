@@ -1,0 +1,45 @@
+*cscope_maps.txt*  A set of maps for cscope that make searching more convenient
+
+Author:  Jason Duell  <jduell@alumni.princeton.edu>
+cscope_maps.txt Author: yundong,xu <xuyundong.whpu@gmail.com>
+License: Same terms as Vim itself (see |license|)
+
+						*<C-@>*
+<C-@>{Cscope_Search_Types}
+
+     To do the first type of search, hit 'CTRL-spacebar', followed by one of the 
+     cscope search types above (s,g,c,t,e,f,i,d).The result of your cscope 
+     search will be displayed in the current window.
+     You can use CTRL-T to go back to where you were before the search.  
+
+						*<C-@><C-@>*
+<C-@><C-@>{Cscope_Search_Types}
+
+     查找出来的结果会在新的窗口显示，这个窗口是按水平分割的。 
+
+     Using 'CTRL-spacebar' *twice* (intepreted as CTRL-@ by vim) then a search type
+     makes the vim window split horizontally, with search result displayed in
+     the new window.
+    
+     (Note: earlier versions of vim may not have the :scs command, but it
+     can be simulated roughly via:
+        nmap <C-@>s <C-W><C-S> :cs find s <C-R>=expand("<cword>")<CR><CR>	
+
+						*<C-\>*
+<C-\>{Cscope_Search_Types}
+
+    按一下CTRL-\，再按相应的动作来进行查找，查找出来的结果将会按垂直窗格分割
+    
+    (Note: you may wish to put a 'set splitright' in your .vimrc
+    if you prefer the new window on the right instead of the left
+
+                                                *Cscope_Search_Types*
+'s'   symbol: find all references to the token under cursor
+'g'   global: find global definition(s) of the token under cursor
+'c'   calls:  find all calls to the function name under cursor
+'t'   text:   find all instances of the text under cursor
+'e'   egrep:  egrep search for the word under cursor
+'f'   file:   open the filename under cursor
+'i'   includes: find files that include the filename under cursor
+'d'   called: find functions that function under cursor calls
+
