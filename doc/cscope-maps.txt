@@ -1,4 +1,4 @@
-*cscope_maps.txt*  A set of maps for cscope that make searching more convenient
+*cscope-maps.txt*  A set of maps for cscope that make searching more convenient
 
 Author:  Jason Duell  <jduell@alumni.princeton.edu>
 cscope_maps.txt Author: yundong,xu <xuyundong.whpu@gmail.com>
