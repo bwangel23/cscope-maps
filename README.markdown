@@ -7,7 +7,7 @@ The cscope\_map plugin was made by Jason Duell <jduell@alumni.princeton.edu>,it
 is a set of maps for cscope that make searching more convenient. You can get it
 from [cscope_mapes](http://cscope.sourceforge.net/cscope_maps.vim). 
 
-And i've changed the <C-@> and <C-@><C-@> key maps. At the sametime, i write a 
+And I've changed the `<C-@>` and `<C-@><C-@>` key maps. At the sametime, I write a 
 vim document cscope\_map.txt in the doc directory
 
 Enjoy the vim and the cscope.
