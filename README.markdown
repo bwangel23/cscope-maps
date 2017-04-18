@@ -1,7 +1,7 @@
 cscope-maps
 ==========
 
-##Introduction
+## Introduction
 
 The cscope\_map plugin was made by Jason Duell <jduell@alumni.princeton.edu>,it 
 is a set of maps for cscope that make searching more convenient. You can get it
@@ -16,7 +16,7 @@ yundong,xu
 
 Wed Jul  8 15:43:51 CST 2015
 
-##Install
+## Install
 
 If you use [Pathogen](https://github.com/tpope/vim-pathogen), do this:
 
